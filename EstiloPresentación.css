@@ -1,0 +1,74 @@
+body{
+    background-color:aquamarine;
+    color: black; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+ }
+ .horario{
+    color:red;
+ }
+ .titulo1{
+    color: blue;
+    text-align: center;
+    background-color: antiquewhite;
+ }
+ ul > li{
+    list-style:circle;
+ }
+ h2{
+    text-align: center;
+ }
+ img{
+    width: 200px; height:150px; border-radius: 50px;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 5px;
+   display: block;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+ }
+ .estiloTabla{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+ }
+ .estiloTabla thead th{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd;   
+ }
+ .estiloTabla tbody td{
+    
+    padding: 10px;
+    border: 2px solid #000;
+ }
+ .estiloTabla tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+ }
+ .estiloTabla tbody tr:hover{
+    background-color:yellow;
+ }
+ .estiloTabla caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ .estiloTabla2 tbody td{
+    
+    padding: 10px;
+    border: 2px solid #000;
+ }
+ .estiloTabla2 tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+ }
+ .estiloTabla2 tbody tr:hover{
+    background-color:yellow;
+ }
+ .estiloTabla2 caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+ 
