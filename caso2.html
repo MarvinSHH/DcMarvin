@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta de Satisfacción</title>
+  <link rel="stylesheet" href="stilocaso2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encuesta de Satisfacción</h1>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required>
+
+      <label for="evaluacion">Evaluación del evento:</label>
+      <select id="evaluacion" name="evaluacion" required>
+        <option value="">Selecciona una opción</option>
+        <option value="excelente">Excelente</option>
+        <option value="bueno">Bueno</option>
+        <option value="regular">Regular</option>
+        <option value="malo">Malo</option>
+      </select>
+      <label for="personal">asistiría a otro evento?:</label>
+      <INPUT TYPE="RADIO" checked NAME="GENDER"
+        VALUE "Desición" />Si <BR/>
+      <INPUT TYPE="RADIO" NAME="GENDER"
+        VALUE "Desición" /> No <P>
+      <label for="comentarios">Comentarios y sugerencias:</label>
+      <textarea id="comentarios" name="comentarios"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>
