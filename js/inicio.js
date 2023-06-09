@@ -37,5 +37,4 @@ if( v2==0){
 else{
   document.getElementById("resultado").textContent = "El resultado de la división es: " + resultado;
 }
-
 }
