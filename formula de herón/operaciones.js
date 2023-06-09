@@ -41,7 +41,7 @@ Lados: 3, 6, 10
         }
         else
         {
-            document.getElementById("resultado").innerHTML="Triángulo no valido";
+            document.getElementById("resultado").innerHTML="Área no valida";
         }
     }
     else
@@ -85,6 +85,6 @@ function tipotriangulo()
     }
     else
     {
-        document.getElementById("resultado").innerHTML="triangulo no valido";
+        document.getElementById("resultado").innerHTML="Tipo de triangulo no valido";
     }
 }
