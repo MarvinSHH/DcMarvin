@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica PHP</title>
+    <link rel="stylesheet" type="text/CSS" href="./CSS/estiloindexhtml.css" />
+  </head>
+  <body>
+    <h1>Practica formulario</h1>
+    <form action="./PHP/respuesta.PHP" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Nombre:</label></td>
+          <td>
+            <input type="text" name="Nombre" id="nombre" placeholder="nombre" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="apellido">Apellidos</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="apellidos"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="text">Correo:</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="Correo electrónico"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="telefono">Número telefonico:</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              name="numero"
+              id="numerotel"
+              placeholder="numero telefonico"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="user">usuario:</label>
+          </td>
+          <td>
+            <input type="text" name="user" id="user" placeholder="usuario" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Contraseña: </label></td>
+          <td>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+            />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
+</html>
