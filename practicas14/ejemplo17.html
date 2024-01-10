@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 17</title>
+    <script>
+      let fila;
+      let tamaño = parseInt(
+        prompt("Introduce el tamaño del rombo (número de filas): ", "0")
+      );
+
+      if (tamaño % 2 === 0) {
+        tamaño++; 
+      }
+
+      let mitad = Math.floor(tamaño / 2) + 1;
+
+      for (fila = 1; fila <= mitad; fila++) {
+        for (let espacios = mitad - fila; espacios > 0; espacios--) {
+          document.write("&nbsp;&nbsp;");
+        }
+        for (let conta = 1; conta <= 2 * fila - 1; conta++) {
+          document.write("*");
+        }
+
+        document.writeln("</br>");
+      }
+
+      for (fila = mitad - 1; fila >= 1; fila--) {
+        for (let espacios = mitad - fila; espacios > 0; espacios--) {
+          document.write("&nbsp;&nbsp;");
+        }
+        for (let conta = 1; conta <= 2 * fila - 1; conta++) {
+          document.write("*");
+        }
+
+        document.writeln("</br>");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

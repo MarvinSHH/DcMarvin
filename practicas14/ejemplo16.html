@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 16</title>
+    <script>
+      let fila;
+      let columna = parseInt(prompt("Introduce el tamaño: ", "0"));
+      for (fila = 1; fila <= columna; fila++) {
+        for (espacios = columna - fila; espacios > 0; espacios--)
+          document.write("&nbsp&nbsp");
+        for (conta = 1; conta < 2 * fila; conta++) document.write("*");
+
+        document.writeln("</br>");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

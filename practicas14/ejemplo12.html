@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 12</title>
+
+    <script>
+      function CambiaColor(nombreColor) {
+        let obj = document.getElementById("Información");
+        obj.style.color = nombreColor;
+      }
+    </script>
+  </head>
+  <body>
+    <p id="Información">Curso de ECMAScript6</p>
+    <button onclick="CambiaColor(`blue`);">Azul</button>
+    <button onclick="CambiaColor(`Red`);">rojo</button>
+  </body>
+</html>
