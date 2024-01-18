@@ -8,8 +8,9 @@
 body {
   min-height: 100vh;
   background-color: black;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .calculadora {
@@ -21,7 +22,7 @@ body {
   border-radius: 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.5rem;
+  grid-gap: 0.5rem;
 }
 
 .pantalla {
