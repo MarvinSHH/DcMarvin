@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Planeta Mascotas</title>
+    <link rel="stylesheet" href="../../Estilos/principal/styleRegistro.css" />
+    <style>
+      body {
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+          url("fondo3.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+
+      .mobile-screen {
+        width: 375px;
+        height: 800px;
+        margin: 20px auto;
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      header {
+        background-color: #c56d16e0;
+        padding: 30px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(37, 40, 37);
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+
+      nav li a:hover {
+        background-color: white;
+        color: skyblue;
+      }
+
+      .todo {
+        padding: 20px;
+      }
+
+      .box {
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        background-color: #eee;
+        padding: 20px;
+      }
+
+      footer.redesociales {
+        color: #000000;
+        text-align: right;
+        padding: 10px;
+      }
+
+      .buttons {
+        min-width: 700px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .buttons a {
+        text-decoration: none;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.4s ease-in-out;
+      }
+
+      .buttons a:hover {
+        transform: scale(1.2);
+      }
+
+      .Piedepagina {
+        background-color: #4a4646;
+        color: #fff;
+        text-align: center;
+      }
+
+      .mobile-screen img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .Piedepagina {
+        background-color: #4a4646;
+        color: #fff;
+        text-align: center;
+        padding: 30px;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-screen">
+      <header>
+        <h1>Planeta Mascotas</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="../Principal/frmInicio.html">Inicio</a>
+          </li>
+          <li>
+            <a href="../Principal/frmProductos.html">Productos</a>
+          </li>
+          <li>
+            <a href="../Principal/frmlogin.html">Iniciar sesión</a>
+          </li>
+          <li>
+            <a href="../Principal/frmRegistro.html">Registrarse</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="form-register">
+        <h4>Registro</h4>
+
+        <input
+          class="controls"
+          type="text"
+          name="nombre"
+          id="nombres"
+          placeholder="Ingrese su Nombre"
+          required
+        />
+        <input
+          class="controls"
+          type="text"
+          name="apellidoP"
+          id="apellidos"
+          placeholder="Ingrese su Apellido Paterno"
+          required
+        />
+        <input
+          class="controls"
+          type="text"
+          name="apellidoM"
+          id="apellidos"
+          placeholder="Ingrese su Apellido Materno"
+          required
+        />
+        <input
+          class="controls"
+          type="text"
+          name="Usuario"
+          id="nombreUsuario"
+          placeholder="Crea tu usuario"
+          required
+        />
+        <input
+          class="controls"
+          type="email"
+          name="correo"
+          id="correo"
+          pattern="^[a-z0-9!#$%&‘*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&‘*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$"
+          placeholder="Ingrese su Correo"
+          required
+        />
+        <input
+          class="controls"
+          type="password"
+          name="password"
+          id="contrasenia"
+          placeholder="Ingrese su Contraseña"
+          required
+        />
+        <input
+          class="controls"
+          type="password"
+          name="confirmPassword"
+          id="confirmarContrasenia"
+          placeholder="Confirme su contraseña"
+          required
+        />
+        <input
+          class="controls"
+          type="text"
+          name="Telefono"
+          id="telefono"
+          placeholder="Telefono"
+          required
+        />
+        <input class="controls" type="date" name="fecha" id="fecha" required />
+
+        <span class="error" id="passwordError"></span>
+        <input
+          class="botons"
+          type="submit"
+          value="¡Regístrate ahora!"
+          required
+        />
+
+        <p>
+          <a href="http://localhost/Dispensador/?C=ControladorLogin&M=sesion"
+            >¿Ya tengo Cuenta?</a
+          >
+        </p>
+      </section>
+      <footer class="Piedepagina">
+        <p>&copy; Sitio desarrollado por PM-Paneta-Mascotas 2023</p>
+      </footer>
+    </div>
+  </body>
+</html>

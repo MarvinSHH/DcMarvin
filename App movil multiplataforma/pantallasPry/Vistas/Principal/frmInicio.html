@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Planeta Mascotas</title>
+    <link rel="stylesheet" href="../../Estilos/principal/syle.css" />
+    <style>
+      body {
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+          url("fondo3.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+
+      .mobile-screen {
+        width: 375px;
+        margin: 2px auto;
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+      }
+
+      header {
+        background-color: #c56d16e0;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(37, 40, 37);
+      }
+
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+
+      nav li a:hover {
+        background-color: white;
+        color: skyblue;
+      }
+
+      .todo {
+        padding: 20px;
+      }
+
+      .box {
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+        background-color: #eee;
+        padding: 20px;
+      }
+
+      footer.redesociales {
+        color: #000000;
+        text-align: right;
+        padding: 10px;
+      }
+
+      .buttons {
+        min-width: 700px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .buttons a {
+        text-decoration: none;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.4s ease-in-out;
+      }
+
+      .buttons a:hover {
+        transform: scale(1.2);
+      }
+
+      .Piedepagina {
+        background-color: #4a4646;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .mobile-screen img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-screen">
+      <header>
+        <h1>Planeta Mascotas</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="../Principal/frmInicio.html">Inicio</a>
+          </li>
+          <li>
+            <a href="../Principal/frmProductos.html">Productos</a>
+          </li>
+          <li>
+            <a href="../Principal/frmlogin.html">Iniciar sesión</a>
+          </li>
+          <li>
+            <a href="../Principal/frmRegistro.html">Registrarse</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="todo">
+        <div><p></p></div>
+        <img src="/" alt="" />
+        <div class="box">
+          <h2>BIENVENIDO A PLANETA MASCOTAS</h2>
+          <hr />
+          <p></p>
+          <p>
+            En esta pagina web pretendemos vender un dispensador de alimento
+            para mascotas en el cual el cliente podrá visualizar y realizar
+            compras, y el administrador dará de alta a los empleados y
+            productos.
+          </p>
+        </div>
+
+        <footer class="redesociales">
+          <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+          <section class="buttons">
+            <a
+              href="https://www.facebook.com/profile.php?id=100094976140902&mibextid=ZbWKwL"
+              class="fa fa-facebook"
+            ></a>
+          </section>
+        </footer>
+      </section>
+      <footer class="Piedepagina">
+        <p>&copy; Sitio desarrollado por PM-Paneta-Mascotas 2023</p>
+      </footer>
+    </div>
+  </body>
+</html>
