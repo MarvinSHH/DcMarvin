@@ -14,10 +14,7 @@ const LoginScreen = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Aquí deberías implementar la lógica de autenticación
-    // Puedes usar servicios como Firebase o tu propio backend
 
-    // Ejemplo simple de validación de usuario y contraseña
     if (username === "usuario" && password === "contraseña") {
       Alert.alert("Inicio de sesión exitoso");
     } else {
