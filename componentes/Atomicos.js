@@ -7,7 +7,11 @@ export const Boton = ({ texto, logo, accion, colorA, colorB }) => {
       style={({ pressed }) => [
         {
           backgroundColor: pressed ? colorB : colorA,
-          margin: pressed ? 10 : 5,
+          margin: pressed ? 50 : 30,
+          width: 70,
+          height: 60,
+          margin: 6,
+          marginBottom: 20,
         },
         estilos.boton,
       ]}

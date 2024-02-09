@@ -1,22 +1,19 @@
 import { StyleSheet, Text, View } from "react-native";
-import { Contador } from "./Componentes/Contador";
-import { Calculadora } from "./Componentes/Calculadora";
-import { Login } from "./Componentes/Login";
+import { Contador } from "./componentes/Contador";
+import { Calculadora } from "./componentes/Calculadora";
+import { Login } from "./componentes/Login";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Encabezado />
       <Cuerpo />
-      <Pie />
     </View>
   );
 }
 export const Encabezado = () => {
   return (
     <View style={styles.encabezado}>
-      <Text style={styles.texto}>X</Text>
-      <Text style={styles.texto}>Encabezados</Text>
+      <Text style={styles.texto}>Calculadora Mar</Text>
       <Text style={styles.texto}>X</Text>
     </View>
   );
@@ -68,7 +65,7 @@ export const Pie3 = ({ op1, op2, op3, op4 }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#a7d9f3",
+    backgroundColor: "#1c1c1c",
     alignItems: "stretch",
     justifyContent: "center",
   },

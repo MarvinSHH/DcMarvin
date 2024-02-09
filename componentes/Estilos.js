@@ -3,11 +3,12 @@ import { StyleSheet } from "react-native";
 export const estilos = StyleSheet.create({
   //Estilos del boton
   boton: {
-    //backgroundColor:'#5affcc',
+    backgroundColor: "#227edb",
     padding: 5,
-    borderRadius: 5,
-    borderColor: "black",
+    borderRadius: 10,
+    borderColor: "#FFFFFF",
     borderWidth: 2,
+    paddingRight: 33,
     //margin:3,
     alignItems: "center",
     flexDirection: "row",
@@ -16,6 +17,7 @@ export const estilos = StyleSheet.create({
   textoB: {
     color: "white",
     fontSize: 20,
+    alignContent: "center",
   },
   logoB: {
     height: 35,
@@ -24,21 +26,26 @@ export const estilos = StyleSheet.create({
   },
   //Estilos de la caja
   boxContainer: {
-    borderColor: "#000",
+    borderColor: "#FFFFFF",
     borderWidth: 2,
-    borderRadius: 5,
-    height: 70,
+    marginTop: 75,
+    borderRadius: 10,
+    height: 100,
     margin: 15,
+    marginBottom: 50,
     alignItems: "flex-end",
     justifyContent: "center",
-    padding: 5,
+    paddingBottom: 15,
+    backgroundColor: "#FFFF",
   },
   TextBox: {
-    fontSize: 30,
+    fontSize: 50,
+    color: "#000",
+    padding: 10,
   },
   //estilo de contenedor de los botones
   botonescontainer: {
-    padding: 10,
+    margin: 15,
     flexDirection: "row",
     flexWrap: "wrap",
   },
